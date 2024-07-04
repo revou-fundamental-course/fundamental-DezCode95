@@ -3,9 +3,161 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Portfolio Dezan</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
+    
     <body>
-        
+        <!-- HEADER NAVIGATION -->
+        <header class="navigation">
+            <div class="logo"> </div>
+            <nav class="nav">
+                <a href="#Homee">Home</a>
+                <a href="#about-us">About Us</a>
+                <a href="https://https://www.coinbase.com">Portfolio</a>
+                <a href="#contactt">Contact Us</a>
+            </nav>
+        </header>
+        <hr />
+<main>
+     <!-- HOME CONTECT -->
+      <section id="Homee">
+
+        <form name="message-form" onsubmit="return validateForm ()">
+
+            <input required type="text" placeholder="username" id="name-input" name="name-input" required>
+            <button id="submit"type="submit" > Kirim</button>
+            <p id="errorrname"></p>
+
+        </form> 
+        <h1 class="welcome"> Hello <span id="name">there!</span> Welcome to our world! </h1>
+
+        <script src="js/script.js"></script>
+        <p class="welcome2">We will help you to reach us</p>
+    </section>
+
+        <section class="section-banner"> 
+        <div class="banner-container">
+            <div class="slide">
+             <input type="radio" name="radio-btn" id="radio1">
+             <input type="radio" name="radio-btn" id="radio2">
+             <input type="radio" name="radio-btn" id="radio3">
+             <input type="radio" name="radio-btn" id="radio4">
+            
+
+                 <div class="st first">
+                <img src="../assets/b1.jpg" alt="">
+                  </div>
+
+                  <div class="st">
+                <img src="../assets/b2.jpg" alt="">
+                 </div>
+
+                 <div class="st">
+                <img src="../assets/b3.jpg" alt="">
+                 </div>
+
+                  <div class="st">
+                <img src="../assets/b4.jpg" alt="">
+                 </div>
+
+             <div class="nav-auto">
+                <div class="a-b1"></div>
+                <div class="a-b2"></div>
+                <div class="a-b3"></div>
+                <div class="a-b4"></div>
+             </div>
+
+            </div>
+        </div>
+
+        <div class="nav-m">
+        <label for="radio1" class="m-btn"></label>
+        <label for="radio2" class="m-btn"></label>
+        <label for="radio3" class="m-btn"></label>
+        <label for="radio4" class="m-btn"></label>
+        </div>
+    </section>
+    
+      <hr />
+
+     <!-- ABOUT US CONTENT -->
+       <section id="about-us" class="about-us">
+            <header>
+                <h1>About Us</h1>
+            </header>
+
+            <article class="profile-content">
+
+                <div class="profile-item">
+                    <div class="profile-icon profile-1"></div>
+                    <p>Profile 1</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon profile-2"></div>
+                    <p>Profile 2</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon profile-3"></div>
+                    <p>Profile 3</p>
+                </div>
+
+                <div class="divider"></div>
+
+            </article>
+       </section>
+        <hr />
+     <!-- PORTFOLIO CONTENT -->
+
+     <!-- CONTACT US CONTENT -->
+      <section id="contactt">
+        <header>
+            <h1 class="Contact">Contact Us</h1>
+        </header>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Name :
+                    </td>
+                    <td>
+                        <input type="text" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth :
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender :
+                    </td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Message :
+                    </td>
+                    <td>
+                        <textarea row="20" col="26" placeholder="Message"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
     </body>
 </html>
